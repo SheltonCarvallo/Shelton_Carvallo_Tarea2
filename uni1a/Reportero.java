@@ -1,11 +1,11 @@
 package uni1a;
 
-public class Actor {
+public class Reportero {
     private String nombre;
     private String apellido;
 
-    //Asociacion
-    public Actor(String nombre, String apellido){
+
+    public Reportero(String nombre, String apellido){
         this.nombre = nombre;
         this.apellido = apellido;
     }

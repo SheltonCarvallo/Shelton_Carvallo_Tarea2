@@ -7,7 +7,6 @@ import java.util.ArrayList;
 // Subclase Documental que extiende de ContenidoAudiovisual
 public class Documental extends ContenidoAudiovisual {
     private String tema;
-    //private final Investigador[] investigadores;
     private final ArrayList<Investigador> investigadores;
 
 
