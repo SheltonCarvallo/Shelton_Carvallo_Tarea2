@@ -1,6 +1,6 @@
 package poo;
 
-import uni1a.*;
+import uni1a.ClasesGitClone.*;
 
 import java.util.ArrayList;
 
@@ -10,8 +10,6 @@ public class PruebaAudioVisual {
 
         // Crear instancias de las subclases
         ContenidoAudiovisual[] contenidos = new ContenidoAudiovisual[3];
-        //contenidos[0] = new Pelicula("Avatar", 125, "Accion", "20th Century Studios");
-        //contenidos[1] = new SerieDeTV("Game of Thrones", 60, "Fantasy", 8);
 
         ArrayList<Actor> actoresAvatar = new ArrayList<Actor>();
         actoresAvatar.add(new Actor("Sam", "Worthington"));

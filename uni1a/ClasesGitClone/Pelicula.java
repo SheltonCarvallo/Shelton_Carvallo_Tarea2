@@ -1,7 +1,7 @@
 /**
  * Class Pelicula
  */
-package uni1a;
+package uni1a.ClasesGitClone;
 
 import java.util.ArrayList;
 

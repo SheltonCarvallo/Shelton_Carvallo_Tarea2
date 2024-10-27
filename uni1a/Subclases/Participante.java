@@ -1,13 +1,15 @@
-package uni1a;
+package uni1a.Subclases;
 
-public class Actor {
+public class Participante {
     private String nombre;
     private String apellido;
+    private String rol;
 
-    //Asociacion
-    public Actor(String nombre, String apellido){
+
+    public Participante(String nombre, String apellido, String rol){
         this.nombre = nombre;
         this.apellido = apellido;
+        this.rol = rol;
     }
 
     //Getters and Setters
@@ -26,5 +28,11 @@ public class Actor {
     public String getApellido(){
 
         return apellido;
+    }
+    public String getRol(){
+        return rol;
+    }
+    public void setRol(String rol){
+        this.rol = rol;
     }
 }

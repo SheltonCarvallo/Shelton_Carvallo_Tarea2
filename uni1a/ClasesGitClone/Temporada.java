@@ -1,6 +1,4 @@
-package uni1a;
-
-import javax.swing.*;
+package uni1a.ClasesGitClone;
 
 public class Temporada {
     private String nombre;

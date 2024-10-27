@@ -1,4 +1,6 @@
-package uni1a;
+package uni1a.Subclases;
+
+import uni1a.ClasesGitClone.ContenidoAudiovisual;
 
 import java.util.ArrayList;
 
@@ -17,7 +19,7 @@ public class GrabacionZoom extends ContenidoAudiovisual {
     public String getDescripcion(){
         return descripcion;
     }
-    public void setDescripcion(){
+    public void setDescripcion(String descripcion){
         this.descripcion = descripcion;
     }
 
@@ -35,7 +37,7 @@ public class GrabacionZoom extends ContenidoAudiovisual {
 
     public void mostrarParticipantes() {
         for (Participante participante : participantes) {
-            System.out.println("\t- " + participante.getNombre() + " " + participante.getApellido() + " rol:" + participante.getRol());
+            System.out.println("\t- " + participante.getNombre() + " " + participante.getApellido() + " - rol: " + participante.getRol());
         }
     }
     public void addParticipante(Participante participante) {

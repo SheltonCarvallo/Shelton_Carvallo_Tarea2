@@ -1,10 +1,9 @@
 /**
  * Class SerieDeTV
  */
-package uni1a;
+package uni1a.ClasesGitClone;
 
 import java.util.ArrayList;
-import java.util.TreeMap;
 
 // Subclase SerieDeTV que extiende de ContenidoAudiovisual
 public class SerieDeTV extends ContenidoAudiovisual {

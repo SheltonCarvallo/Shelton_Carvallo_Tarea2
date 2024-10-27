@@ -1,8 +1,10 @@
-package uni1a;
+package uni1a.Subclases;
+
+import uni1a.ClasesGitClone.ContenidoAudiovisual;
 
 import java.util.ArrayList;
 
-public class ReportajeNoticiero extends ContenidoAudiovisual{
+public class ReportajeNoticiero extends ContenidoAudiovisual {
     private  String seccion;
     private final ArrayList<Reportero> reporteros;
 

@@ -1,11 +1,11 @@
-package uni1a;
+package uni1a.ClasesGitClone;
 
-public class Reportero {
+public class Actor {
     private String nombre;
     private String apellido;
 
-
-    public Reportero(String nombre, String apellido){
+    //Asociacion
+    public Actor(String nombre, String apellido){
         this.nombre = nombre;
         this.apellido = apellido;
     }

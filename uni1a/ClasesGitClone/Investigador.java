@@ -1,4 +1,4 @@
-package uni1a;
+package uni1a.ClasesGitClone;
 
 public class Investigador {
     private String nombre;
